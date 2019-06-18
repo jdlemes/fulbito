@@ -1,4 +1,4 @@
-export function jugar(miEquipo, contrarios, pelota, golesF, golesE, tp) {
+export var jugar = `function jugar(miEquipo, contrarios, pelota, golesF, golesE, tp) {
   var distancia = function(a, b) {
     var disx = Math.abs(a.x - b.x);
     var disy = Math.abs(a.y - b.y);
@@ -454,4 +454,4 @@ export function jugar(miEquipo, contrarios, pelota, golesF, golesE, tp) {
 
   // sino no tengo a nadie para mover devuelvo sin movimiento al arquero
   return { jugador: 1, diry: 0, dirx: 0 };
-}
+}`;
