@@ -1,2 +1,0 @@
-# fulbito
-Created with CodeSandbox
